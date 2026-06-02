@@ -60,16 +60,22 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnAccessibilitySettings"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="28dp"
             android:text="@string/btn_accessibility_settings"
             android:textAllCaps="false"
-            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.02"
             app:backgroundTint="#1976D2"
-            app:cornerRadius="12dp"
+            app:cornerRadius="30dp"
+            app:elevation="6dp"
             app:icon="@android:drawable/ic_menu_preferences"
+            app:iconTint="#FFFFFF"
             app:iconGravity="textStart"
-            app:iconPadding="12dp" />
+            app:iconPadding="12dp"
+            app:iconSize="24dp" />
 
         <!-- Divider -->
         <View
@@ -93,16 +99,22 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnBatterySettings"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="16dp"
             android:text="@string/btn_battery_settings"
             android:textAllCaps="false"
-            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.02"
             app:backgroundTint="#F57C00"
-            app:cornerRadius="12dp"
+            app:cornerRadius="30dp"
+            app:elevation="6dp"
             app:icon="@android:drawable/ic_lock_idle_low_battery"
+            app:iconTint="#FFFFFF"
             app:iconGravity="textStart"
-            app:iconPadding="12dp" />
+            app:iconPadding="12dp"
+            app:iconSize="24dp" />
 
     </LinearLayout>
 
