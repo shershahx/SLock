@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">QuickLock</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">QuickLock uses the Accessibility Service solely to lock your screen when you tap the persistent notification.\n\nThis service does NOT read, collect, or monitor any window content, text, or personal data on your screen. It only performs the system \"Lock Screen\" action when triggered by you.\n\nYou can disable this service at any time from Settings → Accessibility.</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Screen Lock</string>
+    <string name="notification_channel_description">Persistent notification to lock the screen with a single tap.</string>
+    <string name="notification_title">QuickLock</string>
+    <string name="notification_text">Tap to lock your screen</string>
+
+    <!-- MainActivity -->
+    <string name="btn_accessibility_settings">Open Accessibility Settings</string>
+    <string name="btn_battery_settings">Open Battery Optimization Settings</string>
+
+    <string name="title_setup">Setup Instructions</string>
+
+    <string name="instructions_accessibility">
+        <b>Step 1 — Enable Accessibility Service</b>\n\n
+        Tap the button below to open Accessibility Settings.\n
+        Find <b>QuickLock</b> in the list of installed services and enable it.\n
+        Once enabled, a persistent notification will appear in your notification shade.\n
+        Tap that notification at any time to instantly lock your screen.
+    </string>
+
+    <string name="instructions_battery">
+        <b>Step 2 — Disable Battery Optimization (Huawei / EMUI)</b>\n\n
+        Huawei\'s aggressive battery management can kill QuickLock in the background.\n
+        To prevent this:\n\n
+        <b>Option A — Via the button below:</b>\n
+        Tap \"Open Battery Optimization Settings\", find <b>QuickLock</b>, and set it to <b>Don\'t optimize</b> (or <b>Allow</b>).\n\n
+        <b>Option B — Via EMUI Battery Settings:</b>\n
+        1. Go to <b>Settings → Battery → App launch</b>.\n
+        2. Find <b>QuickLock</b> and toggle OFF \"Manage automatically\".\n
+        3. In the dialog, enable <b>Run in background</b> and <b>Auto-launch</b>.\n
+        4. Tap <b>OK</b> to confirm.\n\n
+        This ensures QuickLock\'s notification stays active even after prolonged idle time.
+    </string>
+
+    <string name="status_service_active">✅  Accessibility Service is ACTIVE</string>
+    <string name="status_service_inactive">⚠️  Accessibility Service is NOT active. Please enable it below.</string>
+</resources>
