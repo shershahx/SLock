@@ -11,8 +11,8 @@
     <string name="notification_text">Tap to lock your screen</string>
 
     <!-- MainActivity -->
-    <string name="btn_accessibility_settings">Open Accessibility Settings</string>
-    <string name="btn_battery_settings">Open Battery Optimization Settings</string>
+    <string name="btn_accessibility_settings">Open Accessibility</string>
+    <string name="btn_battery_settings">Battery Optimization Settings</string>
 
     <string name="title_setup">Setup Instructions</string>
 
